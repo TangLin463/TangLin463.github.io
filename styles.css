@@ -6,17 +6,17 @@
 }
 
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
+    --primary-color: #eb2825;
+    --secondary-color: #660909;
     --accent-color: #3b82f6;
-    --success-color: #10b981;
-    --warning-color: #f59e0b;
+    --success-color: #000000;
+    --warning-color: #7d1526;
     --text-primary: #1f2937;
     --text-secondary: #6b7280;
     --text-light: #9ca3af;
     --bg-primary: #ffffff;
     --bg-secondary: #f8fafc;
-    --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --bg-gradient: linear-gradient(135deg, #000000 0%, #fcffff 100%);
     --border-color: #e5e7eb;
     --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
@@ -100,7 +100,7 @@ header {
 }
 
 .highlight {
-    background: linear-gradient(135deg, var(--success-color), #059669);
+    background: linear-gradient(135deg, var(--success-color), #ff0000);
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 25px;
@@ -422,7 +422,7 @@ main {
 }
 
 .skill-tag.expert {
-    background: linear-gradient(135deg, var(--success-color), #059669);
+    background: linear-gradient(135deg, var(--success-color), #020706);
     color: white;
 }
 
@@ -432,7 +432,7 @@ main {
 }
 
 .skill-tag.intermediate {
-    background: linear-gradient(135deg, var(--warning-color), #d97706);
+    background: linear-gradient(135deg, var(--warning-color), #d91106);
     color: white;
 }
 
