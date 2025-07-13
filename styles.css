@@ -232,7 +232,7 @@ main {
 /* Summary Section */
 .summary-grid {
     display: grid;
-    grid-template-columns: 2fr ;
+    grid-template-columns: 1fr ;
     gap: 3rem;
     align-items: start;
 }
