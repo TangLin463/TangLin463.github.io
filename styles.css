@@ -232,7 +232,7 @@ main {
 /* Summary Section */
 .summary-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr ;
     gap: 3rem;
     align-items: start;
 }
@@ -381,7 +381,7 @@ main {
 /* Skills Section (continued) */
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
     gap: 2rem;
 }
 
@@ -761,6 +761,27 @@ footer {
     color: var(--primary-color);
 }
 
+.language-toggle {
+      position: fixed;
+      top: 80px;
+      right: 300px;
+      padding: 8px 16px;
+      /* background-color: #e85a1c; */
+      color: rgb(108, 103, 103);
+      /* border:#333333; */
+      border: 2px solid #938c89;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+      background: transparent;
+      font-family: 'Microsoft YaHei';
+    }
+    .language-toggle:hover {
+      background-color: #000000;
+      color: rgb(105, 167, 185);
+      border-color: #574d47;
+      background: transparent;
+    }
 /* Responsive Design */
 @media (max-width: 1024px) {
     .container {
